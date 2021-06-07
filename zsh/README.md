@@ -6,17 +6,48 @@ ln -fs ~/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
 ## typical shortcuts commands / alias
-### git
+## git
 
-- ```glg``` git log
-- ```gcmsg [$1 message]``` commit with message
-- ```gbrf [$ like branch name]``` cat match branches
-- ```gignm``` create .gitignore file with .DS_Store && nodemodules && coverage
+git log
+```bash
+glg
+  ```
 
-### sh
+git commit --message
 
-- ```reload``` ZSH config reloaded from ~/.zshrc
+``` bash
+gcmsg [$1 message]
+```
 
-### dev
+cat match branches
+``` bash
+gbrf [$1 like branch name]
+```
 
-- ```pyenv``` load pyenv local environment
+create .gitignore file with .DS_Store && nodemodules && coverage
+``` bash
+gignm
+```
+
+## sh
+ZSH config reloaded from ~/.zshrc
+``` bash
+reload
+```
+
+
+## dev
+load pyenv local environment
+``` bash
+pyenv
+```
+
+npm run dev
+``` bash
+npmd
+```
+
+yarn run dev
+``` bash
+yarnd
+```
