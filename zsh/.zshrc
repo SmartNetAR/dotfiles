@@ -92,7 +92,7 @@ alias lzd='lazydocker'
 # Git aliases
 alias gbr='git branch | cat'
 alias gbrf='git branch | cat | grep $1'
-alias gignm='echo ".DS_Store\nnode_modules\ncoverage" > .gitignore'
+alias gignm='echo ".DS_Store\nnode_modules\n.env\ncoverage" > .gitignore'
 
 # alias https://undefined.sh/comandos-alias-para-la-terminal/
 
@@ -110,6 +110,7 @@ alias yarns="yarn start"
 
 # pyenv aliases
 alias pyenv="source ./env/bin/activate"
+alias pyd="uvicorn src.main:app --reload"
 
 # utils aliases
 alias sshadd="ssh-add -K ~/.ssh/id_rsa"
