@@ -146,3 +146,34 @@ findport() {
 findproc() {
   ps -fa | egrep "$1|PID"
 }
+
+# Curl
+curlj() {
+  if [ -n "$1" ]
+  then
+    curl $1 | json_pp
+  else
+    echo "enter [url]"
+    echo "curlj localhost:5000"
+  fi
+}
+
+curlpost() {
+  if [ -n "$2" ]
+  then
+    curl -X POST -H "Content-Type: application/json" -d $1 $2
+  else
+    echo "enter [jsonData] & [url]"
+    echo "curlpost '{\"email\": \"username@mail.com\"}' localhost:5000"
+  fi
+}
+
+curljpost() {
+  if [ -n "$2" ]
+  then
+    curl -X POST -H "Content-Type: application/json" -d $1 $2 | json_pp
+  else
+    echo "enter [jsonData] & [url]"
+    echo "curljpost '{\"email\": \"username@mail.com\"}' localhost:5000"
+  fi
+}

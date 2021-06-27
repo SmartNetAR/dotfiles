@@ -3,7 +3,6 @@ code --install-extension aeschli.vscode-css-formatter
 code --install-extension batisteo.vscode-django
 code --install-extension brainfit.vscode-importmagic
 code --install-extension brapifra.phpserver
-code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.python-extension-pack
@@ -16,6 +15,7 @@ code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
 code --install-extension Gruntfuggly.todo-tree
 code --install-extension humao.rest-client
+code --install-extension jakob101.RelativePath
 code --install-extension juliettepretot.lucy-vscode
 code --install-extension kenhowardpdx.vscode-gist
 code --install-extension kisstkondoros.vscode-codemetrics
