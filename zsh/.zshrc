@@ -106,11 +106,17 @@ alias nvmz="nvm use 15"
 alias npmd="npm run dev"
 alias npms="npm start"
 alias yarnd="yarn run dev"
-alias yarns="yarn start"
+alias yarns="yarn serve"
 
 # pyenv aliases
 alias pyenv="source ./env/bin/activate"
 alias pyd="uvicorn src.main:app --reload"
+
+# makefile
+alias maked="make dev"
+
+# docker
+alias ddown="docker-compose down"
 
 # utils aliases
 alias sshadd="ssh-add -K ~/.ssh/id_rsa"
