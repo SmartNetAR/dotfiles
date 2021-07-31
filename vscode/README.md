@@ -55,3 +55,17 @@ cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/dotfiles/vscod
 - <kbd>cmd</kbd> + <kbd>→</kbd> Focus on Next Terminal
 - <kbd>cmd</kbd> + <kbd>←</kbd> Focus on Prev Terminal
 - <kbd>cmd</kbd> + <kbd>k</kbd> <kbd>v</kbd> Focus (show) Preview Panel
+
+#### Cursor
+- <kbd>h</kbd> <kbd>j</kbd> <kbd>k</kbd> <kbd>l</kbd> Move ← ↓ ↑ →
+- <kbd>^</kbd> Go to first non space character of line
+- <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>i</kbd> Set multiples cursors at end lines on selected lines to edit
+- <kbd>g</kbd> <kbd>g</kbd> Go to first line of file
+- <kbd>shift</kbd> + <kbd>g</kbd> Go to last line of file
+- <kbd>[#]</kbd> <kbd>shift</kbd> + <kbd>g</kbd> Go to number [#] line of file
+- <kbd>shift</kbd> + <kbd>a</kbd> Set cursor at end of line to edit
+- <kbd>shift</kbd> + <kbd>i</kbd> Set cursor at start of line to edit
+- <kbd>shift</kbd> + <kbd>$</kbd> Set cursor at start of line
+- <kbd>shift</kbd> + <kbd>0</kbd> Set cursor at start of line
+- <kbd>f</kbd> <kbd>[char]</kbd> Set cursor at first finded character at right to cursor
+- <kbd>shift</kbd> + <kbd>f</kbd> <kbd>[char]</kbd> Set cursor at first finded character at left to cursor
