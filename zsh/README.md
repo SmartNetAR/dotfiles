@@ -5,6 +5,11 @@
 ln -fs ~/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
+## Install oh-my-zsh now
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ## typical shortcuts commands / alias
 ## git
 

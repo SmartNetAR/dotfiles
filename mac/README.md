@@ -59,3 +59,8 @@ Hot keys
 ```bash
 cp ~/dotfiles/mac/shortcuts/.GlobalPreferences.plispyenvpyenvt ~/Library/Preferences
 ```
+
+Enlace
+```bash
+ln -s /Volumes/DatosM2/projects
+```
