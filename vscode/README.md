@@ -45,6 +45,14 @@ cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/dotfiles/vscod
 - <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>x</kbd> Show Extensions
 - <kbd>cmd</kbd> + <kbd>j</kbd> Show and Hide Terminal
 
+vim plugin https://github.com/tpope/vim-surround (or use VSCode Vim plugin, which comes with vim-surround pre-installed)
+
+- <kbd>y</kbd> <kbd>s</kbd> <kbd>i</kbd> <kbd>w</kbd> <kbd>'</kbd> add surround in word `'`
+- <kbd>d</kbd> <kbd>s</kbd> <kbd>'</kbd> drop surround `'`
+- <kbd>c</kbd> <kbd>s</kbd> <kbd>'</kbd> <kbd>"</kbd> change surround from `'` to `"`
+It even works for html tags!
+- <kbd>c</kbd> <kbd>s</kbd> <kbd>t</kbd> `<em>` // change surround from current tag to `<em>`
+check out the readme on github for better examples
 
 ### Focus
 - <kbd>cmd</kbd> + <kbd>0</kbd> Focus (show) on Side Bar
