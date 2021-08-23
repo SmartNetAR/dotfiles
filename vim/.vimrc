@@ -33,5 +33,8 @@ set ruler                                 " Show row and column ruler informatio
 set undolevels=1000                       " Number of undo levels
 set backspace=indent,eol,start            " Backspace behaviour
 
+"" Clipboard compartido
+set clipboard=unnamed
+
 "" Key maps
 inoremap jk <esc>l
