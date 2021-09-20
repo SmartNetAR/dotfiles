@@ -44,6 +44,11 @@ cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/dotfiles/vscod
 - <kbd>ctrl</kbd> + <kbd>G</kbd> Show Source Control (Git)
 - <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>x</kbd> Show Extensions
 - <kbd>cmd</kbd> + <kbd>j</kbd> Show and Hide Terminal
+- <kbd>ctrl</kbd> + <kbd>w</kbd> + <kbd>w</kbd> Focus Next Panel # vim / vscode
+- <kbd>ctrl</kbd> + <kbd>w</kbd> + <kbd>s</kbd> Sprit Panel # vim / vscode
+- <kbd>ctrl</kbd> + <kbd>w</kbd> + <kbd>w</kbd> Sprit Panel Vertical # vim / vscode
+- :vsp filename.txt Split Panel Vertical and open new file # vim / vscode
+
 
 vim plugin https://github.com/tpope/vim-surround (or use VSCode Vim plugin, which comes with vim-surround pre-installed)
 
