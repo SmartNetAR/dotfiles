@@ -91,4 +91,19 @@
         "command": "editor.emmet.action.matchTag",
         "when": "editorTextFocus && editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+cmd+[IntlBackslash]",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
 ]

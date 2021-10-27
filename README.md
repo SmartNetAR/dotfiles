@@ -30,8 +30,9 @@
 1. Install **ZSH config** from `~/dotfiles/zsh`
 
 ### Configure Development Environment
-1. Install **nvm** `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
+1. Install **nvm** `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
 1. Install **Active LTS** and **Current** versions from https://nodejs.org/en/about/releases (using nvm install)
+1. Set default version `nvm alias default 16`
 1. Install **npm packages** from `~/dotfiles/npm`
 
 ### Configure Terminal

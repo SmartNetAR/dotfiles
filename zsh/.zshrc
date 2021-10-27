@@ -98,9 +98,9 @@ alias gignm='echo ".DS_Store\nnode_modules\n.env\ncoverage" > .gitignore'
 
 # nvm aliases
 alias nvmu="nvm use"
-alias nvmx="nvm use 10"
-alias nvmy="nvm use 14"
-alias nvmz="nvm use 15"
+alias nvmx="nvm use 14"
+alias nvmy="nvm use 16"
+alias nvmz="nvm use 17"
 
 # npm and yarn aliases
 alias npmd="npm run dev"
@@ -183,3 +183,7 @@ curljpost() {
     echo "curljpost '{\"email\": \"username@mail.com\"}' localhost:5000"
   fi
 }
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
