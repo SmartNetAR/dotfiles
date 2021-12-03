@@ -6,6 +6,12 @@ code --list-extensions | xargs -L 1 echo code --install-extension > ~/dotfiles/v
 code --list-extensions
 ```
 
+Backup settings
+
+```bash
+cp ~/Library/Application\ Support/Code/User/settings.json ~/dotfiles/vscode
+```
+
 Backup keybindin
 ```bash
 cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/dotfiles/vscode/keybindings.json

@@ -85,6 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias af='alias | grep $1'
+
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
 alias lzd='lazydocker'
@@ -101,12 +103,16 @@ alias nvmu="nvm use"
 alias nvmx="nvm use 14"
 alias nvmy="nvm use 16"
 alias nvmz="nvm use 17"
+alias nvmd='nvm alias default $1'
 
 # npm and yarn aliases
 alias npmd="npm run dev"
 alias npms="npm start"
 alias yarnd="yarn run dev"
-alias yarns="yarn serve"
+alias yarns="yarn start"
+alias yarnsv="yarn serve"
+
+alias ngs="ng serve"
 
 # pyenv aliases
 alias pyenv="source ./env/bin/activate"
