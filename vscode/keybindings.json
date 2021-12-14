@@ -106,4 +106,8 @@
         "command": "-workbench.action.terminal.split",
         "when": "terminalFocus && terminalProcessSupported"
     },
+    {
+        "key": "alt+cmd+tab",
+        "command": "-workbench.action.showAllEditors"
+    },
 ]

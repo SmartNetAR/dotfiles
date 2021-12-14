@@ -23,7 +23,9 @@
       "source.organizeImports": false
     }
   },
-  "eslint.validate": ["javascript"],
+  "eslint.validate": [
+    "javascript"
+  ],
   "eslint.format.enable": true,
   "eslint.alwaysShowStatus": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
@@ -40,18 +42,33 @@
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
     },
     {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
     }
   ],
   "vim.leader": "<space>",
@@ -64,22 +81,15 @@
   "typescript.preferences.importModuleSpecifier": "relative",
   "editor.fontFamily": "JetBrains Mono, Menlo, Menlo, Monaco, 'Courier New', monospace",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "bracketPairColorizer.consecutivePairColors": [
-    "()",
-    "[]",
-    "{}",
-    "<>",
-    [
-      "Gold",
-      "Orchid",
-      "LightSkyBlue"
-      // "Green", // added
-      // "Blue", // added
-      // "Brown",  // added
-      // "Black", // added
-      // "Red", // added
-    ],
-    "Red"
+  "bracket-pair-colorizer-2.colors": [
+    "Gold",
+    "Orchid",
+    "LightSkyBlue"
+    // "Green", // added
+    // "Blue", // added
+    // "Brown",  // added
+    // "Black", // added
+    // "Red", // added
   ],
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.editorAssociations": {

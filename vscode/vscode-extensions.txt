@@ -2,7 +2,7 @@ code --install-extension 42Crunch.vscode-openapi
 code --install-extension aeschli.vscode-css-formatter
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension christian-kohler.npm-intellisense
-code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.python-environment-manager
 code --install-extension donjayamanne.python-extension-pack
