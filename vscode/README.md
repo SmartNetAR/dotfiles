@@ -1,20 +1,37 @@
+# Settings
+
+
+## Backup Extensions
 ```bash
-code --list-extensions | xargs -L 1 echo code --install-extension > ~/dotfiles/vscode/vscode-extensions.txt
+code --list-extensions | xargs -L 1 echo code --install-extension > ~/.dotfiles/vscode/vscode-extensions.txt
 ```
 
 ```bash
 code --list-extensions
 ```
 
-Backup settings
+## a) Link setup
 
+Settings
 ```bash
-cp ~/Library/Application\ Support/Code/User/settings.json ~/dotfiles/vscode
+ln -fs ~/Library/Application\ Support/Code/User/settings.json ~/.dotfiles/vscode/settings.json
+```
+Keybindings
+```bash
+ln -fs ~/Library/Application\ Support/Code/User/keybindings.json ~/.dotfiles/vscode/keybindings.json
 ```
 
-Backup keybindin
+## b) Copy setup (backup and restore)
+
+Settings
+
 ```bash
-cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/dotfiles/vscode/keybindings.json
+cp ~/Library/Application\ Support/Code/User/settings.json ~/.dotfiles/vscode
+```
+
+Keybindings
+```bash
+cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/.dotfiles/vscode/keybindings.json
 ```
 
 # Shortcuts vscode / vim

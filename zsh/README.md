@@ -2,7 +2,7 @@
 
 ## .zshrc
 ```bash
-ln -fs ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -fs ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
 ## Install oh-my-zsh now

@@ -30,34 +30,34 @@
 
 App shortcuts 
 ```bash
-cp ~/Library/Preferences/.GlobalPreferences.plist ~/dotfiles/mac/shortcuts/
+cp ~/Library/Preferences/.GlobalPreferences.plist ~/.dotfiles/mac/shortcuts/
 ```
 
 Services shortcuts
 ```bash
-cp ~/Library/Preferences/pbs.plist ~/dotfiles/mac/shortcuts
+cp ~/Library/Preferences/pbs.plist ~/.dotfiles/mac/shortcuts
 ```
 
 Hot keys
 ```bash
-cp ~/Library/Preferences/.GlobalPreferences.plispyenvpyenvt ~/dotfiles/mac/shortcuts
+cp ~/Library/Preferences/.GlobalPreferences.plispyenvpyenvt ~/.dotfiles/mac/shortcuts
 ```
 
 ### Restore
 
 App shortcuts 
 ```bash
-cp ~/dotfiles/mac/shortcuts/.GlobalPreferences.plist ~/Library/Preferences
+cp ~/.dotfiles/mac/shortcuts/.GlobalPreferences.plist ~/Library/Preferences
 ```
 
 Services shortcuts
 ```bash
-cp ~/dotfiles/mac/shortcuts/pbs.plist ~/Library/Preferences
+cp ~/.dotfiles/mac/shortcuts/pbs.plist ~/Library/Preferences
 ```
 
 Hot keys
 ```bash
-cp ~/dotfiles/mac/shortcuts/.GlobalPreferences.plispyenvpyenvt ~/Library/Preferences
+cp ~/.dotfiles/mac/shortcuts/.GlobalPreferences.plispyenvpyenvt ~/Library/Preferences
 ```
 
 Enlace

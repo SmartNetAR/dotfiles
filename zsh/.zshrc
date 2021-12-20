@@ -97,6 +97,7 @@ alias gbrf='git branch | cat | grep $1'
 alias gignm='echo ".DS_Store\nnode_modules\n.env\ncoverage" > .gitignore'
 
 # alias https://undefined.sh/comandos-alias-para-la-terminal/
+alias rm="trash"
 
 # nvm aliases
 alias nvmu="nvm use"

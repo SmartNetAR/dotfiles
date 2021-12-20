@@ -2,5 +2,5 @@
 
 ### installed-apps
 ```bash
-ls /Applications > ~/dotfiles/apps/installed-apps
+ls /Applications > ~/.dotfiles/apps/installed-apps
 ```
