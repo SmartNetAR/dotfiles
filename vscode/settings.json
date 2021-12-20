@@ -200,5 +200,6 @@
     "inversify"
   ],
   "workbench.activityBar.visible": false,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "bracket-pair-colorizer-2.depreciation-notice": false
 }

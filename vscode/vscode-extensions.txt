@@ -4,6 +4,7 @@ code --install-extension bradlc.vscode-tailwindcss
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension DigitalBrainstem.javascript-ejs-support
 code --install-extension donjayamanne.python-environment-manager
 code --install-extension donjayamanne.python-extension-pack
 code --install-extension dsznajder.es7-react-js-snippets
