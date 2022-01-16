@@ -12,13 +12,15 @@ code --list-extensions
 
 ## a) Link setup
 
-Settings
+Settings & Keybindings
 ```bash
-ln -fs ~/Library/Application\ Support/Code/User/settings.json ~/.dotfiles/vscode/settings.json
-```
-Keybindings
-```bash
-ln -fs ~/Library/Application\ Support/Code/User/keybindings.json ~/.dotfiles/vscode/keybindings.json
+cd ~/Library/Application\ Support/Code/User
+
+rm settings.json
+ln -s ~/.dotfiles/vscode/settings.json settings.json
+
+rm keybindings.json
+ln -s ~/.dotfiles/vscode/keybindings.json keybindings.json
 ```
 
 ## b) Copy setup (backup and restore)
