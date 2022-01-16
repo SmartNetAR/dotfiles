@@ -45,8 +45,6 @@ filetype plugin indent on    " required
 "" Theme
 syntax enable                             " Enable syntax processing
 set background=dark                       " Dark background for the theme
-let g:solarized_termcolors=256            " Degraded 256 colorscheme
-colorscheme solarized                     " Solarized colorscheme
 
 "" General
 set number                                " Show line numbers
