@@ -23,6 +23,10 @@ rm keybindings.json
 ln -s ~/.dotfiles/vscode/keybindings.json keybindings.json
 ```
 
+rm -rf snippets 
+ln -s ~/.dotfiles/vscode/snippets snippets
+```
+
 ## b) Copy setup (backup and restore)
 
 Settings

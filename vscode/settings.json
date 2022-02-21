@@ -182,7 +182,7 @@
   },
   "redhat.telemetry.enabled": true,
   "workbench.sideBar.location": "right",
-  "editor.accessibilitySupport": "on",
+  "editor.accessibilitySupport": "off",
   "workbench.startupEditor": "none",
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
@@ -197,27 +197,40 @@
   },
   "cSpell.language": "en,es",
   "cSpell.userWords": [
+    "clickeable",
     "dayjs",
     "digichanges",
+    "dotenv",
     "dotfiles",
     "formik",
     "Formik",
     "ilike",
     "inversify",
+    "linkedin",
+    "Middlewares",
+    "mikro",
+    "MikroORM",
+    "multiselect",
     "Multiselect",
+    "noreferrer",
     "postgres",
+    "postgresql",
     "prebuild",
     "redis",
     "smartnet",
     "solidjs",
+    "supabase",
     "typeorm"
   ],
-  "workbench.activityBar.visible": false,
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "[css]": {
     "editor.defaultFormatter": "aeschli.vscode-css-formatter"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.activityBar.visible": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   }
 }
