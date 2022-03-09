@@ -48,7 +48,8 @@ cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/.dotfiles/vsco
 
 - <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>m</kbd> Go to Matching Tag with Emmet
 - <kbd>v</kbd> <kbd>i</kbd> <kbd>t</kbd> Select In Tag
-- <kbd>v</kbd> <kbd>i</kbd> <kbd>a</kbd> Select All Tag
+- <kbd>v</kbd> <kbd>a</kbd> <kbd>t</kbd> Select All Tag
+- <kbd>v</kbd> <kbd>a</kbd> <kbd>t</kbd> <kbd>o</kbd> Select Tag and go to Open/Close Tag
 - <kbd>d</kbd> <kbd>i</kbd> <kbd>t</kbd> Delete In Tag
 - <kbd>d</kbd> <kbd>s</kbd> <kbd>t</kbd> Delete Surrounding Tag
 

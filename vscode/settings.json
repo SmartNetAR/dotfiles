@@ -202,6 +202,7 @@
     "digichanges",
     "dotenv",
     "dotfiles",
+    "fadein",
     "formik",
     "Formik",
     "ilike",
@@ -229,8 +230,8 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.activityBar.visible": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  },
+  "workbench.activityBar.visible": false
 }

@@ -23,4 +23,11 @@
 			"console.log($1);"
 		]
 	},
+	"Console.log >>>": {
+		"scope": "typescript,javascript,typescriptreact,javascriptreact",
+		"prefix": "clg>",
+		"body": [
+			"console.log('>>> $1:');$2",
+		]
+	},
 }
