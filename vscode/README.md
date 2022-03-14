@@ -89,6 +89,14 @@ It even works for html tags!
 - <kbd>c</kbd> <kbd>s</kbd> <kbd>t</kbd> `<em>` // change surround from current tag to `<em>`
 check out the readme on github for better examples
 
+### Replace word in multiples sites
+1. <kbd>/</kbd> <kbd>word</kbd> <kbd>enter</kbd> find word to replace
+2. <kbd>g</kbd> <kbd>n</kbd>
+3. <kbd>c</kbd> to change, you can use other op ej. <kbd>d</kbd>
+4. <kbd>new_word</kbd> <kbd>esc</kbd>
+5. <kbd>.</kbd> to repeat, <kbd>n</kbd> go to next
+
+
 ### Focus
 - <kbd>cmd</kbd> + <kbd>0</kbd> Focus (show) on Side Bar
 - <kbd>cmd</kbd> + <kbd>1</kbd> Focus on 1 code Panel
