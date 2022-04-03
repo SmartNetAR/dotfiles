@@ -97,6 +97,23 @@ check out the readme on github for better examples
 5. <kbd>.</kbd> to repeat, <kbd>n</kbd> go to next
 
 
+### Comment multiples lines
+1. Put cursor on the first line to comment
+1. <kbd>ctrl</kbd> <kbd>v</kbd> enter visual mode
+1. move up or down
+1. <kbd>shift</kbd> <kbd>i</kbd>
+1. insert comment symbol (//, #, ...) 
+1. <kbd>esc</kbd>
+1. wait for one second
+1. <kbd>esc</kbd>
+### Uncomment
+1. Put cursor on the first comment character
+1. <kbd>ctrl</kbd> <kbd>v</kbd> enter visual mode
+1. move up or down until the last commented line
+1. <kbd>l</kbd> select comment characters to remove (if required)
+1. <kbd>x</kbd> to delete
+1. <kbd>esc</kbd>
+
 ### Focus
 - <kbd>cmd</kbd> + <kbd>0</kbd> Focus (show) on Side Bar
 - <kbd>cmd</kbd> + <kbd>1</kbd> Focus on 1 code Panel
