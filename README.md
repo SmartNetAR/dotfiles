@@ -12,6 +12,11 @@
 1. Install **Purchased Apps** from **App Store**.
 1. Install **Downloaded Apps** following `~/.dotfiles/apps`.
 
+### Enable keystroke repeat
+```bash
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
+
 ### Configure Brew
 1. Install **brew** `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.
 1. Install **brew packages** from `~/.dotfiles/brew`.
@@ -30,12 +35,12 @@
 1. Clone **dotfiles** repository `git@github.com:smartnetar/dotfiles.git .dotfiles`.
 
 ### Configure ZSH
-1. (Linux) Install `sudo apt install zsh` and make default zsh shell `chsh -s $(which zsh)`
-1. Install **Oh My Zsh** `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+1. (Linux) Install ```sudo apt install zsh` and make default zsh shell `chsh -s $(which zsh)```
+1. Install **Oh My Zsh** ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 1. Install **ZSH config** from `~/.dotfiles/zsh`
 
 ### Configure Development Environment
-1. Install **nvm** `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
+1. Install **nvm** ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash```
 1. Install **Active LTS** and **Current** versions from https://nodejs.org/en/about/releases (using nvm install)
 1. Set default version `nvm alias default 16`
 1. Install **npm packages** from `~/.dotfiles/npm`
@@ -55,3 +60,8 @@ Follow **Configure Git**, **Configure ZSH**, **Configure Development Environment
 1. Backup the `.env` files `find ~/Code -name .env -not -path */node_modules/**` in a USB.
 1. Backup the SSH Keys `./ssh` in a USB.
 1. Commit lastest changes in `~/.dotfiles` and push them.
+
+## Symbolic Link Projects
+```bash
+ln -fs /Volumes/datos/projects ~/projects
+```
