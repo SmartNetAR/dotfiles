@@ -2,8 +2,11 @@
   "files.exclude": {
     "**/._*": true
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "window.titleBarStyle": "custom",
   "editor.fontSize": 15,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontLigatures": true,
   "debug.console.fontSize": 15,
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.defaultProfile.osx": "zsh",
@@ -79,18 +82,8 @@
   "editor.lineNumbers": "on",
   "cmake.configureOnOpen": true,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "editor.fontFamily": "JetBrains Mono, Menlo, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, Cascadia Code, Menlo, Menlo, Monaco, 'Courier New', monospace",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "bracket-pair-colorizer-2.colors": [
-    "Gold",
-    "Orchid",
-    "LightSkyBlue"
-    // "Green", // added
-    // "Blue", // added
-    // "Brown",  // added
-    // "Black", // added
-    // "Red", // added
-  ],
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -158,15 +151,11 @@
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "liveServer.settings.donotShowInfoMsg": true,
-  // "python.analysis.extraPaths": ["./env/bin"],
   "python.analysis.autoImportCompletions": true,
-  // "python.autoComplete.addBrackets": true,
   "python.linting.pylintEnabled": false,
   "python.linting.pycodestyleEnabled": true,
   "python.linting.enabled": true,
-  // "python.linting.pycodestyleArgs": ["--ignore=E303", "--max-line-length=100"],
   "python.pythonPath": "./env/bin/python",
-  // "python.analysis.completeFunctionParens": true,
   "terminal.integrated.tabs.enabled": false,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -180,7 +169,7 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "redhat.telemetry.enabled": true,
+  "redhat.telemetry.enabled": false,
   "workbench.sideBar.location": "right",
   "editor.accessibilitySupport": "off",
   "workbench.startupEditor": "none",
@@ -189,7 +178,9 @@
     "*": true,
     "yaml": false,
     "plaintext": false,
-    "markdown": false
+    "markdown": false,
+    "html": false,
+    "javascript": false
   },
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
   "[html]": {
@@ -197,14 +188,17 @@
   },
   "cSpell.language": "en,es",
   "cSpell.userWords": [
+    "allowtransparency",
     "clickeable",
     "dayjs",
     "digichanges",
     "dotenv",
     "dotfiles",
     "fadein",
+    "felte",
     "formik",
     "Formik",
+    "grecaptcha",
     "ilike",
     "inversify",
     "linkedin",
@@ -218,14 +212,15 @@
     "postgresql",
     "prebuild",
     "redis",
+    "sendgrid",
     "smartnet",
     "solidjs",
     "supabase",
-    "typeorm"
+    "typeorm",
+    "Whatsapp"
   ],
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "[css]": {
-    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -233,5 +228,10 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "tailwindCSS.includeLanguages": {},
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "oneDarkPro.italic": true,
+  "telemetry.telemetryLevel": "off"
 }

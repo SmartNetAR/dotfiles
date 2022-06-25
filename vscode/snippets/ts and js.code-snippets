@@ -27,7 +27,7 @@
 		"scope": "typescript,javascript,typescriptreact,javascriptreact",
 		"prefix": "clg>",
 		"body": [
-			"console.log( '>>> $1:' );$2",
+			"console.log('>>> $1:');$2",
 		]
 	},
 	"Console.log bg": {
