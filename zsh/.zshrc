@@ -89,6 +89,8 @@ alias af='alias | grep $1'
 
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
+alias rm._="find . -type f -name '._*' -delete"
+
 alias lzd='lazydocker'
 
 # Git aliases
