@@ -72,7 +72,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-[[ "$(uname -s)" == "Darwin" ]] && plugins=(git) || plugins=(git zsh-z)
+[[ "$(uname -s)" == "Darwin" ]] && plugins=(git) || plugins=(git z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,13 +99,13 @@ alias gbrf='git branch | cat | grep $1'
 alias gignm='echo ".DS_Store\nnode_modules\n.env\ncoverage" > .gitignore'
 
 # alias https://undefined.sh/comandos-alias-para-la-terminal/
-alias rm="trash"
+# alias rm="trash"
 
 # nvm aliases
 alias nvmu="nvm use"
-alias nvmx="nvm use 14"
-alias nvmy="nvm use 16"
-alias nvmz="nvm use 17"
+alias nvmx="nvm use 16"
+alias nvmy="nvm use 18"
+alias nvmz="nvm use 19"
 alias nvmd='nvm alias default $1'
 
 # npm and yarn aliases
@@ -196,3 +196,5 @@ curljpost() {
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
