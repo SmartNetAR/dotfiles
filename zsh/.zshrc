@@ -150,7 +150,8 @@ alias simu="open /Applications/Xcode.app/Contents/Developer/Applications/Simulat
 
 
 # Syntax Highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh #macOs
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Find a process given a port
 findport() {
@@ -196,5 +197,5 @@ curljpost() {
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
