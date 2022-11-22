@@ -85,6 +85,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# gulp
+alias guw='gulp watch-dev-files'
+alias gubf='gulp build --feature $1'
+
 alias af='alias | grep $1'
 
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
@@ -199,3 +203,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 # source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # source /root/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/leo/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+keep_current_path() {
+  printf "\e]9;9;%s\e\\" "$(wslpath -w "$PWD")"
+}
+precmd_functions+=(keep_current_path)
+
