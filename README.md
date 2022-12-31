@@ -40,9 +40,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 1. Install **ZSH config** from `~/.dotfiles/zsh`
 
 ### Configure Development Environment
-1. Install **nvm** ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash```
-1. Install **Active LTS** and **Current** versions from https://nodejs.org/en/about/releases (using nvm install)
-1. Set default version `nvm alias default 16`
+1. Install **nvm** ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash``` [oficial git nvm install](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Install **Active LTS** and **Current** versions from https://nodejs.org/en/about/releases (using nvm install) eg. `nvm install 18`
+1. Set default version `nvm alias default 18`
 1. Install **npm packages** from `~/.dotfiles/npm`
 
 ### Configure Terminal

@@ -210,3 +210,4 @@ keep_current_path() {
 }
 precmd_functions+=(keep_current_path)
 
+source /home/leo/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -12,7 +12,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ### How to install zsh-syntax-highlighting
 ```bash
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+git clone git@github.com:zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
 ```bash

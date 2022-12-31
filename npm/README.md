@@ -7,6 +7,6 @@ npm list -g --depth 0
 
 ## Install packages
 ```bash
-npm install -g localtunnel ngrok trash-cli
+npm install -g localtunnel ngrok trash-cli @angular/cli
 ```
 <!-- npm install -g public-ip-cli internal-ip-cli trash-cli vercel serve -->
