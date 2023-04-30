@@ -5,7 +5,12 @@
 npm list -g --depth 0
 ```
 
-## Install packages
+## Install packages PNPM
+```bash
+pnpm install -g @angular/cli
+```
+
+## Install packages NPM
 ```bash
 npm install -g localtunnel ngrok trash-cli @angular/cli
 ```

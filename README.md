@@ -35,7 +35,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 1. Clone **dotfiles** repository `git@github.com:smartnetar/dotfiles.git .dotfiles`.
 
 ### Configure ZSH
-1. (Linux) Install ```sudo apt install zsh` and make default zsh shell `chsh -s $(which zsh)```
+1. (Linux) Install `sudo apt install zsh` and make default zsh shell `chsh -s $(which zsh)`
 1. Install **Oh My Zsh** ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 1. Install **ZSH config** from `~/.dotfiles/zsh`
 
@@ -44,6 +44,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 1. Install **Active LTS** and **Current** versions from https://nodejs.org/en/about/releases (using nvm install) eg. `nvm install 18`
 1. Set default version `nvm alias default 18`
 1. Install **npm packages** from `~/.dotfiles/npm`
+
+### Install pnpm
+1. `curl -fsSL https://get.pnpm.io/install.sh | sh -`
 
 ### Configure Terminal
 1. Install **Pure** from `npm install -g pure-prompt`
