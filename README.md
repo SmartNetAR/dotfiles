@@ -42,6 +42,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ### Configure Development Environment
 1. Install **nvm** ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash``` [oficial git nvm install](https://github.com/nvm-sh/nvm#installing-and-updating)
 1. Install **Active LTS** and **Current** versions from https://nodejs.org/en/about/releases (using nvm install) eg. `nvm install 18`
+1. `source ~/.bashrc`
+1. `command -v nvm`
 1. Set default version `nvm alias default 18`
 1. Install **npm packages** from `~/.dotfiles/npm`
 
