@@ -64,7 +64,7 @@ Follow **Configure Git**, **Configure ZSH**, **Configure Development Environment
 1. Follow the instructions inside each folder
 1. Backup the `.env` files `find ~/Code -name .env -not -path */node_modules/**` in a USB.
 1. Backup the SSH Keys `./ssh` in a USB.
-1. Commit lastest changes in `~/.dotfiles` and push them.
+1. Commit latest changes in `~/.dotfiles` and push them.
 
 ## Symbolic Link Projects
 ```bash
