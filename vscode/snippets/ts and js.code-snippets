@@ -19,23 +19,37 @@
 		"scope": "typescript,javascript,typescriptreact,javascriptreact",
 		"prefix": "clgd",
 		"body": [
-			"console.log( '>>>$2 $1:' );",
-			"console.log( $1 );"
+			"console.log('>>>$2 $1:');",
+			"console.log($1);"
 		]
 	},
-	"Console.log >>>": {
-		"scope": "typescript,javascript,typescriptreact,javascriptreact",
-		"prefix": "clg>",
+	"Console.log Helper": {
+		"prefix": "_w",
 		"body": [
-			"console.log('>>> $1:');$2",
-		]
+			"console.log('>>> $TM_SELECTED_TEXT');"
+		],
+		"description": "Agrega un console.log del texto seleccionado"
 	},
-	"Console.log bg": {
-		"scope": "typescript,javascript,typescriptreact,javascriptreact",
-		"prefix": "clgbg",
+	"Console.log clipboard Helper": {
+		"prefix": "clgdp",
 		"body": [
-			"console.log( '%c >>> ${ `$1` }: ', 'background: #222; color: #bada55' )",
-			"console.log( `%c >>> ${ $1 }: `, 'background: #222; color: #bada55' );$2",
-		]
+			"console.log('>>> [$CLIPBOARD]');",
+			"console.log($CLIPBOARD);"
+		],
+		"description": "Agrega un console.log del texto copiado"
 	},
+	"Console.log clipboard Helper with ,": {
+		"prefix": "clgdp,",
+		"body": [
+			"console.log('>>> [$CLIPBOARD]', $CLIPBOARD);",
+		],
+		"description": "Agrega un console.log del texto copiado"
+	},
+	"Simple Console.log clipboard Helper": {
+		"prefix": "clgp",
+		"body": [
+			"console.log('>>> [$CLIPBOARD]');",
+		],
+		"description": "Agrega un console.log del texto copiado"
+	}
 }
