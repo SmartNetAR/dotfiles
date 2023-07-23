@@ -1,7 +1,7 @@
 # Settings
 
-
-## Backup Extensions
+## Bash
+### Backup Extensions
 ```bash
 code --list-extensions | xargs -L 1 echo code --install-extension > ~/.dotfiles/vscode/vscode-extensions.txt
 ```
@@ -10,7 +10,7 @@ code --list-extensions | xargs -L 1 echo code --install-extension > ~/.dotfiles/
 code --list-extensions
 ```
 
-## a) Link setup
+### a) Link setup
 
 Settings & Keybindings
 ```bash
@@ -38,6 +38,14 @@ cp ~/Library/Application\ Support/Code/User/settings.json ~/.dotfiles/vscode
 Keybindings
 ```bash
 cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/.dotfiles/vscode/keybindings.json
+```
+
+## Windows
+Symbolic link
+1. Delete folder "%AppData%\Code\User\snippets"
+1. Create symbolic link
+```powershell
+c:\projects\.dotfiles>mklink /d "%AppData%\Code\User\snippets" "C:\projects\.dotfiles\vscode\snippets"
 ```
 
 # Shortcuts vscode / vim
