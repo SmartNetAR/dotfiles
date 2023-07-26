@@ -87,6 +87,7 @@ alias gfg='git ls-files | grep'
 alias gfo='git fetch origin'
 alias gg='git gui citool'
 alias gga='git gui citool --amend'
+alias gl='git pull'
 alias ggpull='git pull origin "$(git_current_branch)"'
 alias ggpur=ggu
 alias ggpush='git push origin "$(git_current_branch)"'
