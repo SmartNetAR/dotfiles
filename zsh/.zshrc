@@ -109,7 +109,7 @@ alias gignm='echo ".DS_Store\nnode_modules\n.env\ncoverage" > .gitignore'
 alias nvmu="nvm use"
 alias nvmx="nvm use 16"
 alias nvmy="nvm use 18"
-alias nvmz="nvm use 19"
+alias nvmz="nvm use 20"
 alias nvmd='nvm alias default $1'
 
 # npm and yarn aliases
