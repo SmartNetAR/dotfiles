@@ -42,10 +42,16 @@ cat ~/Library/Application\ Support/Code/User/keybindings.json > ~/.dotfiles/vsco
 
 ## Windows
 Symbolic link
-1. Delete folder "%AppData%\Code\User\snippets"
+1. Delete folder ```%AppData%\Code\User\snippets```
 1. Create symbolic link
 ```powershell
-c:\projects\.dotfiles>mklink /d "%AppData%\Code\User\snippets" "C:\projects\.dotfiles\vscode\snippets"
+cmd /c mklink /d "%AppData%\Code\User\snippets" "C:\projects\.dotfiles\vscode\snippets"
+```
+
+1. Delete file ```%AppData%\Code\User\keybindings.json```
+```powershell
+New-Item -Path "$env:AppData\Code\User\keybindings.json" `
+            -ItemType SymbolicLink -Value "C:\projects\.dotfiles\vscode\keybindings.json"
 ```
 
 # Shortcuts vscode / vim
