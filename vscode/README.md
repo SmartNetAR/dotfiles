@@ -104,6 +104,8 @@ check out the readme on github for better examples
 4. <kbd>new_word</kbd> <kbd>esc</kbd>
 5. <kbd>.</kbd> to repeat, <kbd>n</kbd> go to next
 
+### Remove spaces in one line
+1. <kbd>:s/ //g</kbd> <kbd>enter</kbd>
 
 ### Comment multiples lines
 1. Put cursor on the first line to comment
