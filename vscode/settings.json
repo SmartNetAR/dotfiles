@@ -22,8 +22,8 @@
     // "editor.defaultFormatter": "vscode.typescript-language-features",
     "editor.defaultFormatter": "vscode.typescript-language-features",
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.organizeImports": false
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "never"
     }
   },
   "eslint.validate": [
@@ -33,7 +33,7 @@
   "eslint.alwaysShowStatus": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.minimap.enabled": false,
   "typescript.implementationsCodeLens.enabled": true,
@@ -51,6 +51,15 @@
       ],
       "after": [
         "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "I"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
       ]
     }
   ],
@@ -72,12 +81,32 @@
       "commands": [
         ":nohl"
       ]
+    },
+    {
+      "before": ["g", "I"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
+      "silent": true
     }
   ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
+    "<C-p>": false,
+    "<C-j>": false,
+    "<C-E>": false,
+    "<C-d>": false,
     "<C-f>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
   },
   "editor.lineNumbers": "on",
   "cmake.configureOnOpen": true,
@@ -163,7 +192,7 @@
   "editor.tabSize": 4,
   "editor.cursorStyle": "line",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.wordWrap": "off",
+  "editor.wordWrap": "on",
   "editor.suggest.preview": true,
   "notebook.cellToolbarLocation": {
     "default": "right",
@@ -176,17 +205,18 @@
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
     "plaintext": false,
     "markdown": false,
-    "html": false,
-    "javascript": false
+    "scminput": false,
+    "yaml": false,
+    "html": true,
+    "javascript": true
   },
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "cSpell.language": "en,es",
+  "cSpell.language": "en-GB,es",
   "cSpell.userWords": [
     "allowtransparency",
     "clickeable",
@@ -228,10 +258,66 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.activityBar.visible": false,
   "tailwindCSS.includeLanguages": {},
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.iconTheme": "material-icon-theme",
   "oneDarkPro.italic": true,
-  "telemetry.telemetryLevel": "off"
+  "telemetry.telemetryLevel": "off",
+  "workbench.activityBar.location": "top",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.enableStickyScroll": true,
+  "[vb]": {
+    "files.encoding": "windows1252"
+  },
+  "[vba]": {
+    "files.encoding": "windows1252"
+  },
+  "console-ninja.featureSet": "Community",
+  "azure.resourceFilter": [
+    "a0575c2d-c01b-4274-9bc6-be0573a50e41/1d427ca7-8418-44cc-9fd0-8e7929b56026"
+  ],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".env": ".env.*"
+  },
+  "workbench.colorCustomizations": {       // Can customize each aspect
+      // "[One Dark Pro]": {                  // Optional
+          "tab.activeBorderTop": "#FFFFFF", // Active Tab Top Highlighting
+          // "tab.activeBorder": "#0A84FF" // Active Tab Highlighting
+      // }
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu"
+      ]
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
 }
